@@ -25,7 +25,7 @@ AUTO-TELEGRAM-TO-DISCORD-FORWARDER is a free and open source, can automatically 
 
 ### Installing and Setup
 
-* This Porject can Easily deployed and run on different systems without worrying about dependencies or system-specific issues until and unless you have Docker Installed on your PC.
+* This Project can Easily deployed and run on different systems without worrying about dependencies or system-specific issues until and unless you have Docker Application is Installed on your PC.
 1. Clone this repository
 2. Open your choice of console (or VSCode console) and navigate to cloned folder 
 3. Fill out a configuration file. An exmaple file can be found at `config.yaml-sample`. 
