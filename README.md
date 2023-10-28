@@ -46,9 +46,11 @@ AUTO-TELEGRAM-TO-DISCORD-FORWARDER is a free and open source, can automatically 
 * Whenever you add and delete discord channels in `config.yml`; `discord_forward.py` will have to be updated. If you know basic python you will understand the code.
 * Multiple send/recieve telegram channels in `config.yaml` can added without any code change.
 
-2. Run The Command To Build An Image: `docker build -t AUTO-BOT .`.
+2. ### Filling `Dockerfile` file
+   * Replace your current `WORKDIR` to Dockerfile. Example: `WORKDIR /CurrentDIR-Name` 
+3. Run The Command To Build An Image: `docker build -t AUTO-BOT .`.
 
-3. RUN THE COMMAND TO START THE APPLICATION : `docker run`
+4. RUN THE COMMAND TO START THE APPLICATION : `docker run`
 
 ```
 ***PLEASE NOTE:  In the first time you are running the docker image, you will be requried to validate your phone number using telegram API. This happens only at the first time (per session name).
