@@ -37,7 +37,7 @@ AUTO-TELEGRAM-TO-DISCORD-FORWARDER is a free and open source, can automatically 
 #### Filling `config.yaml` file
 
 * Create a two channels on Telegram as `channel_send` and `channel_recieve` and fill in their channel ids in config.yaml
-* Add your Telegram `api_id` and `api_hash` to config.yml | Read more [here](https://core.telegram.org/api/obtaining_api_id)
+* Add your Telegram `api_id` and `api_hash` to config.yaml | Read more [here](https://core.telegram.org/api/obtaining_api_id)
 * Add your `discord_bot_token` to config.yaml | Read more [here](https://www.writebots.com/discord-bot-token/)
 * Add your `discord_1_channel` channel id. Remember when you remove extra discord channels you have to update code in `discord_forward.py` under comment `DISCORD SERVER START EVENT` and `MESSAGE SCREENER`
 
