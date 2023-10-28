@@ -11,7 +11,7 @@ AUTO-TELEGRAM-TO-DISCORD-FORWARDER is a free and open source, can automatically 
 
 ## Getting Started
 
-1. Create a [github](https://github.com/login?return_to=%2Fkkapuria3) account. It always helps !
+1. Create a [github](https://github.com/login) account. It always helps !
 2. Star this repository. Its FREE !
 3. Please follow me here if you like my contribution: [<img src="https://p.kindpng.com/picc/s/726-7262336_deadpool-logo-pixel-art-hd-png-download.png" width="25"/>](https://github.com/Rohiteswar)
 
