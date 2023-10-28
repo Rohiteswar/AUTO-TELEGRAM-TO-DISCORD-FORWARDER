@@ -48,9 +48,9 @@ AUTO-TELEGRAM-TO-DISCORD-FORWARDER is a free and open source, can automatically 
 
 2. #### Filling `Dockerfile` 
    * Replace your current `WORKDIR` to Dockerfile. Example: `WORKDIR /CurrentDIR-Name` 
-3. Run The Command To Build An Image: `docker build -t AUTO-BOT .`.
+3. Run The Command To Build An Image: `docker build -t auto-bot .`.
 
-4. RUN THE COMMAND TO START THE APPLICATION : `docker run`
+4. RUN THE COMMAND TO START THE APPLICATION : `docker run auto-bot`
 
 ```
 ***PLEASE NOTE:  In the first time you are running the docker image, you will be requried to validate your phone number using telegram API. This happens only at the first time (per session name).
