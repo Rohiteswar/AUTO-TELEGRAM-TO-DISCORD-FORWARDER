@@ -1,4 +1,3 @@
-
 FROM python:3.11-slim as build
 
 WORKDIR /Auto-Telegram-To-Discord-Forwarder-Bot
