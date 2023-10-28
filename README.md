@@ -46,7 +46,7 @@ AUTO-TELEGRAM-TO-DISCORD-FORWARDER is a free and open source, can automatically 
 * Whenever you add and delete discord channels in `config.yml`; `discord_forward.py` will have to be updated. If you know basic python you will understand the code.
 * Multiple send/recieve telegram channels in `config.yaml` can added without any code change.
 
-2. ### Filling `Dockerfile` file
+2. #### Filling `Dockerfile` 
    * Replace your current `WORKDIR` to Dockerfile. Example: `WORKDIR /CurrentDIR-Name` 
 3. Run The Command To Build An Image: `docker build -t AUTO-BOT .`.
 
