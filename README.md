@@ -1,4 +1,4 @@
-# Telegram to Discord Message Bot — Forward Telegram Messages to Discord 
+# Telegram to Discord Message Bot — Forward Telegram POSTS to Discord 
 
 <img src="https://img.shields.io/badge/Status-works%20after%20lot%20of%20debugging-red"> <img src="https://img.shields.io/badge/Python%20Skill-intermediate%20-brightgreen"> 
 
