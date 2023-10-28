@@ -34,23 +34,21 @@ AUTO-TELEGRAM-TO-DISCORD-FORWARDER is a free and open source, can automatically 
 
 1. Change the name of `config.yaml-sample` to `config.yaml`
 
-#### Filling `config.yml` file
+#### Filling `config.yaml` file
 
 * Create a two channels on Telegram as `channel_send` and `channel_recieve` and fill in their channel ids in config.yaml
 * Add your Telegram `api_id` and `api_hash` to config.yml | Read more [here](https://core.telegram.org/api/obtaining_api_id)
-* Add your `discord_bot_token` to config.yml | Read more [here](https://www.writebots.com/discord-bot-token/)
+* Add your `discord_bot_token` to config.yaml | Read more [here](https://www.writebots.com/discord-bot-token/)
 * Add your `discord_1_channel` channel id. Remember when you remove extra discord channels you have to update code in `discord_forward.py` under comment `DISCORD SERVER START EVENT` and `MESSAGE SCREENER`
 
-#### Editing `discord_messager.py`
+#### Editing `discord_forward.py`
 
-* Whenever you add and delete discord channels in `config.yml`; `discord_messager.py` will have to be updated. If you know basic python you will understand the code.
-* Multiple send/recieve telegram channels in `config.yml` can added without any code change.
+* Whenever you add and delete discord channels in `config.yml`; `discord_forward.py` will have to be updated. If you know basic python you will understand the code.
+* Multiple send/recieve telegram channels in `config.yaml` can added without any code change.
 
-2. Read the Version History and Changelog and below before running the script.
+2. Run The Command To Build An Image: `docker build -t AUTO-BOT .`.
 
-3. Run The Command To Build An Image: `docker build -t AUTO-BOT .`.
-
-4. RUN THE COMMAND TO START THE APPLICATION : `docker run`
+3. RUN THE COMMAND TO START THE APPLICATION : `docker run`
 
 ```
 ***PLEASE NOTE:  In the first time you are running the docker image, you will be requried to validate your phone number using telegram API. This happens only at the first time (per session name).
